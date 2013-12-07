@@ -1,4 +1,4 @@
-var userInputsss = function() {
+var userInput = function() {
     var userChoice = prompt("Do you choose rock, paper or scissors?");
 if (userChoice == "rock" || userChoice == "paper" || userChoice == "scissors") {
     compare(userChoice,computerChoice);
